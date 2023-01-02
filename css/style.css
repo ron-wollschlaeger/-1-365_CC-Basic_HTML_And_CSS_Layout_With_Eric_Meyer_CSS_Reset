@@ -1,6 +1,8 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
+
+   Modified by Ron Wollschläger
 */
 
 html, body, div, span, applet, object, iframe,
@@ -29,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	min-height: 100vh;
 	line-height: 1;
 }
 ol, ul {
